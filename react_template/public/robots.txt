@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Disallow access to admin areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Allow all CSS, JS, and image files
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Sitemap location
+Sitemap: https://mrvgadvogados.com.br/sitemap.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1

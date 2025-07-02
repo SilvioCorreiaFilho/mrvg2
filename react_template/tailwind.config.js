@@ -3,6 +3,14 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      colors: {
+        'primary-dark': '#1B365D',
+        'primary-light': '#2563EB',
+        'secondary-gold': '#C9A961',
+        'accent-blue': '#E8F4FD',
+        'text-primary': '#2C3E50',
+        'background-default': '#FFFFFF',
+      },
       keyframes: {
         cloud1: {
           '0%': { transform: 'translateX(-100%)' },
