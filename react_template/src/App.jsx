@@ -11,6 +11,7 @@ import Commemorative from './components/Commemorative';
 // Lazy loading for performance
 const ChatBot = lazy(() => import('./components/ChatBot'));
 const Blog = lazy(() => import('./components/Blog'));
+const BlogDynamic = lazy(() => import('./components/BlogDynamic'));
 
 // Loading component
 const LoadingSpinner = () => (
